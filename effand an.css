@@ -1,0 +1,51 @@
+/* its for cip property */
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    border: 2px solid brown;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;  */
+    /* clip div ky andar close ho jy
+    text-overflow: ellipsis; */
+    /* dots show  */
+/* } */
+/* .text:hover{ 
+    overflow: visible;
+}   */
+/* its for vertical text  */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.vert{
+    /* writing-mode: vertical-lr; */
+    writing-mode: horizontal-tb;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgb(177, 97, 97);
+}
+.shad{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px  peru;
+}
+.shad2{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px plum;
+}
+.shad2:active{
+    box-shadow: none;
+}
+.shad3{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 20px rgb(26, 198, 198);
+    
+}
+.shad3:hover{
+    box-shadow: none;
+}

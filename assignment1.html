@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags and Attribute</title>
+</head>
+<body>
+    <h2>1-Unordered List Tag</h2>
+    <ul type="circle">
+        <li>Fan</li>
+        <li>Machine</li>
+        <ul type="square">
+        <li>Iron</li>
+        <li>Chairs</li>
+    </ul>
+    </ul>
+    <hr>
+    <h2>2-Ordered List Tag</h2>
+    <ol>
+            <li> In a small nonstick over medium heat, melt butter (or heat oil).</li>
+            <li> Crack egg into pan.</li>
+            <li>Cook 3 minutes, or until white is set.</li>
+            <li>Flip and cook 2 to 3 minutes more, until yolk is completely set.</li>
+        </ol>
+<hr>
+    <h2>3-Anchor Tag</h2>
+   <a href="https://uol.edu.pk/" target="_parent">university of lahore </a><br><br>
+   <a href="https://tech.uol.edu.pk/course/bachelor-of-science-in-information-engineering-technology/" target="_main">Bachelor-of-science-in-information-engineering-technology</a>
+<hr>
+<h2>4-Details tag</h2>
+<details>
+    <summary>IET</summary>
+    <p> The Information Engineering Technologists are in great demand with employers globally.</p>
+</details><br>
+<!-- But if we use "open" Attribute then -->
+<details open> 
+    <summary>Open Attribute</summary>
+    <p>The details content will be visible by default when the page loads</p>
+</details>
+<hr>
+<h2>5-Progress tag</h2>
+<label for="file-upload">Upload a file:</label>
+<input type="file" id="file-uploading">
+<progress id="upload-progress" value="0" max="100"></progress>
+
+<hr>
+<h2>6-Textarea tag</h2>
+<textarea name="Comment" rows="6" cols="8" placeholder="Enter the feedback"></textarea>
+
+<hr>
+<h2>7-Select tag</h2>
+<select name="fruits" id="fruit-items" required>
+    <option value="Apple">Apple</option>
+    <option value="Mango">Mango</option>
+    <option value="Grapes">Grapes</option>
+    <option value="Watermelon">Watermelon</option>
+</select>
+<hr>
+<h2>8-Label tag</h2>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+   <hr> 
+   <h2>9-Input tag</h2>
+   <label for="username">Username:</label>
+   <input type="text" id="username" name="username" placeholder="Enter your Name" required>
+   <hr>
+
+   <h2>10-Form tag</h2>
+   <form action="/submit-URL" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Enter your name" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Create a strong password" required>
+    
+    <input type="submit" value="Submit">
+  </form>
+  
+  
+</body>
+</html>

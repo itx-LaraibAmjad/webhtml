@@ -1,0 +1,39 @@
+.flex-container{
+    display: flex;
+    background-color: aquamarine;
+    /* flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    flex-direction: column;
+    /* height: 240px; */
+    /* width:200px; */
+    justify-content: center;
+    align-items:flex-end;
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    /* flex-direction and flex-wrap = flex flow */
+gap: 10px;   
+}
+.box{
+    border: 5px solid black;
+/* padding: 5px;
+margin: 10px;} */
+
+.box1{
+        background-color: brown;}
+.box6{
+    background-color: red;
+}
+.box4{
+    background-color: blanchedalmond;
+}
+.box5{
+    background-color: pink;
+    align-self: center;
+}
+.box5{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: darkmagenta;
+}
+/* flex container is block element and child are inline element if we remove flex then the chikd element become block element if we add display flex then child become inline*/

@@ -1,0 +1,66 @@
+/* body{
+     height: 95vh;
+     display: grid;
+     grid-template-rows: auto 1fr;
+     gap: 10px;
+     color: rgb(25, 110, 135);
+     font-size: 2em;
+}
+header{
+       background: rgb(47, 255, 179);
+       text-align: center;
+       padding: 2em;
+}
+main{
+       background: pink;
+       text-align: center;
+       padding: 2em;
+}
+footer{
+    background: rgb(43, 215, 181);
+    text-align: center;
+    padding: 2em;
+}
+nav{
+       background-color: cornsilk;
+       text-align: center;
+       padding: 2em;
+} */
+body{
+       height: 95vh;
+       display: grid;
+       grid-template-areas: "head head"
+        "nav main"
+       "footer footer "; 
+       /* when we add grid-template-areas we dont need to declar grid-template-columns and rows size of them make by deafult (auto)
+        if we want to add it we add it and adjust their size as you want */
+       /* grid-template-rows: 150px 1fr 150px; */
+       /* grid-template-columns: 150px  1fr; */
+       gap: 10px;
+       color: white;
+       font-size: 2em;
+  }
+  header{
+         grid-area: head;
+         background: rgb(168, 171, 156);
+         text-align: center;
+         padding: 2em;
+  }
+  nav{
+       grid-area: nav;
+       background: rgb(47, 175, 255);
+       text-align: center;
+       padding: 2em;
+  }
+  main{
+         grid-area: main;
+         background: pink;
+         text-align: center;
+         padding: 2em;
+  }
+  footer{
+       grid-area: footer;
+      background: rgb(43, 215, 181);
+      text-align: center;
+      padding: 2em;
+  }

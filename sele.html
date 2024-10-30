@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* descendant selector */
+        /* #blog,h1{
+        color: blue;
+        } */
+         /* child select */
+        /* #blog > h1{
+        color: blue;
+        } */
+        general siblings selector
+        h1~p{
+        color: blue;
+        }
+        /* adajcent sibling h1 ky sath lga ho wo change ho ga  */
+        h1 + p{
+            color: rgb(62, 131, 241);
+        }
+         /* child select */ 
+       /* #blog > h1{
+        color: blue;
+        }  */
+          /* pseudu class selectors 
+           */
+    </style>
+</head>
+<body>
+    <div id="blog">
+        <h1>Latest News</h1>
+        <div>
+            <h1>Wea</h1>
+            <p>Weather</p>
+            <p>The weather will be sunny</p>
+            <p>Tomorrow wil be rainy</p>
+        </div>
+    </div>
+</body>
+</html>

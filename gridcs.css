@@ -1,0 +1,39 @@
+.parent{
+    display: grid;
+    /* 12 are column  */
+    grid-template-columns: repeat(12,1fr);  
+    /* background-color: blueviolet; */
+}
+.segment{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-rows: 100px;
+}
+.twelve{
+    background-color: chocolate;
+    /* we also use grid row*/
+    grid-column: 1/span 12; 
+    /* from 1st column to 12 coulmn length of span 12 means class twelve */
+}
+.eight{
+    background-color: chartreuse;
+    grid-column:5/span 8 ;
+    /* start from 5th column to 8th column length */
+}
+.four{
+    background-color:palevioletred;
+    grid-column:1/span 4 ;
+    /* from 1th to 4th column  */
+}
+.six{
+    background-color: violet;
+    grid-column:5/span 6 ;
+    /* from5th to 6th column  */
+}
+.seven{
+    background-color: brown;
+    grid-column:3/span 7 ;
+    /* start form 3rd column  and cover 7 parts */
+    /* from 3rd to 7th column length */
+}

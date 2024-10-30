@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+        display: flex;
+       flex-direction:row;  
+         height: 40vh;
+        width: 100vw;  
+        background-color: chocolate;
+        gap: 20px;
+        flex-wrap: wrap;
+    } 
+    .box1{
+        background-color: aqua;
+        /* width: 100px; */
+        flex:1 0 100px;
+        /* height: 100px; */
+    }
+    .box2{
+        background-color: blueviolet;
+        /* width: 100px; */
+        flex: 0 1 auto;
+        /* height: 100px; */
+    }
+    .box3{
+        background-color: brown;
+        /* width: 100px; */
+        flex: 1 0 auto;
+        /* height: 100px; */
+    }
+    .box4{
+        background-color: cadetblue;
+        /* width: 100px; */
+        flex: 1 0 100px;
+        /* height: 100px; */
+    }
+    .box5{
+    background-color: chartreuse;
+    /* width: 100px; */
+    flex: 2 0 auto;
+    /* height: 100px; */
+    }
+    </style>o
+</head>
+<body>
+    <!-- prperties of flex box  -->
+    <!-- flex grow , flex shrink , flex basis-->
+     <!-- flex glow in numbers -->
+    <div class="flex-container">
+    <div class="box box1">one..</div>
+    <div class="box box2">Two..</div>
+    <div class="box box3">Three..</div>
+    <div class="box box4">Four..</div>
+    <div class="box box5">Five..</div>
+    </div>
+</body>
+</html>
